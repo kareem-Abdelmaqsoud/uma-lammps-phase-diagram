@@ -122,7 +122,7 @@ def parse_thermo_log(log_file: Path) -> list[dict]:
             try:
                 rows.append({k: float(v) for k, v in zip(header, parts)})
             except ValueError:
-                header = None
+                continue
     return rows
 
 

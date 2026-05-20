@@ -9,7 +9,6 @@ __pycache__/
 # Generated data (reproducible from scripts)
 structures/
 runs/
-results/
 
 # Script outputs
 melting_points.csv
