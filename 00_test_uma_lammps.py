@@ -40,7 +40,7 @@ def load_uma_predictor(device: str = "cpu"):
         settings = None
 
     print("Loading UMA-S-1.2 predictor (may download model on first run)...")
-    model_path = pretrained_checkpoint_path_from_name("uma-s-1p2")
+    model_path = pretrained_checkpoint_path_from_name("uma-s-1p1")
     predictor = load_predict_unit(model_path, device=device, inference_settings=settings)
     print("Predictor loaded.")
     return predictor

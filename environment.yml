@@ -1,8 +1,10 @@
 name: uma-alge-phase-diagrams
 
 # ============================================================
-# AlGe Phase Diagram — UMA-S-1.2 + LAMMPS environment
+# AlGe Phase Diagram — UMA-S-1.1 + LAMMPS environment
 # ============================================================
+#
+# Tested on Linux (x86-64), May 2026.
 #
 # CREATE:   conda env create -f environment.yml
 # ACTIVATE: conda activate uma-alge-phase-diagrams
@@ -11,6 +13,9 @@ name: uma-alge-phase-diagrams
 # Linux / macOS:
 #   - LAMMPS is installed from conda-forge (includes Python bindings).
 #   - 'from lammps import lammps' works out of the box after activation.
+#   - Use the nompi build (default on conda-forge); fairchem-lammps uses
+#     LAMMPS as a single-process library via its external-fix callback, so
+#     MPI parallelism inside LAMMPS is not needed.
 #
 # Windows:
 #   - Remove 'lammps' from the conda dependencies below.
@@ -22,12 +27,15 @@ name: uma-alge-phase-diagrams
 #   - Add the LAMMPS\bin directory to PATH so liblammps.dll is found.
 #   - Also see activate.bat in the project for a Windows-specific activation script.
 #
+# ---- Model name change ----
+# The scripts use "uma-s-1p1" (UMA-S-1.1). UMA-S-1.2 is not yet registered
+# in the fairchem-core 2.14.0 model registry; use 1p1 until a newer release
+# adds it.
+#
 # ---- GPU vs CPU ----
-# This environment installs torch with CUDA support by default (from PyPI).
-# If you need CPU-only (smaller download), replace the 'torch' pip entry with:
-#   - torch==2.12.0 --index-url https://download.pytorch.org/whl/cpu
-# Note: if 2.12.0 is unavailable on the CPU WHL server, just use 'torch' and PyPI
-# will install the current CPU+CUDA wheel which still runs on CPU.
+# torch==2.8.0 from PyPI includes CUDA support and also runs on CPU.
+# For a CPU-only install, add --index-url https://download.pytorch.org/whl/cpu
+# after the torch line.
 # ============================================================
 
 channels:
@@ -38,9 +46,10 @@ dependencies:
   - python=3.11
 
   # LAMMPS with Python bindings (Linux / macOS only — see Windows note above)
-  - lammps
+  # Pin to the nompi build; the MPI build is not needed and adds complexity.
+  - lammps=2024.08.29=*nompi*
 
-  # Core scientific stack via conda-forge for better solver compatibility
+  # Core scientific stack
   - numpy>=2.0,<2.5
   - scipy>=1.15
   - matplotlib
@@ -48,30 +57,15 @@ dependencies:
 
   - pip:
     # ---- PyTorch ----
-    # Default: CUDA-capable wheel from PyPI (also runs on CPU).
-    # Swap for CPU-only build if needed (see header note).
-    - torch==2.12.0
+    - torch==2.8.0
 
     # ---- fairchem ----
-    - fairchem-core==2.20.0
+    - fairchem-core==2.14.0
     - fairchem-lammps==0.4.0
 
     # ---- Structure building ----
-    - ase==3.28.0
+    - ase==3.26.0
 
-    # ---- fairchem runtime dependencies ----
-    - ray[serve]==2.55.1
-    - torchtnt==0.2.4
-    - e3nn==0.6.0
-    - hydra-core==1.3.2
-    - huggingface-hub==1.15.0
-    - lmdb==1.7.3
-    - numba==0.65.1
-    - monty>=2026.2.18
-    - clusterscope==0.0.18
-    - orjson==3.11.9
-    - submitit==1.5.4
-    - wandb==0.27.0
-    - websockets==16.0
+    # ---- fairchem runtime dependencies (let pip resolve sub-deps) ----
     - tqdm
     - pyyaml

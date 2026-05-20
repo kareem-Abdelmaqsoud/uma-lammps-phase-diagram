@@ -1,0 +1,134 @@
+PRODUCTION: 13 comps x 12 temps x 5000 steps
+Workers: 16  |  Total jobs: 156  |  Device: cpu
+
+Cached: 0  |  To run: 156
+Dispatching 16 batches across 16 workers...
+
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/conda-envs/atomate2/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+[worker pid=22127] Loading UMA-S-1.2 predictor...
+[worker pid=22127] Predictor ready.
+  [pid=22127] x=0.00 T= 750K ...
+[worker pid=22133] Loading UMA-S-1.2 predictor...
+[worker pid=22133] Predictor ready.
+  [pid=22133] x=0.00 T=1200K ...
+[worker pid=22123] Loading UMA-S-1.2 predictor...
+[worker pid=22123] Predictor ready.
+  [pid=22123] x=0.00 T= 500K ...
+[worker pid=22122] Loading UMA-S-1.2 predictor...
+[worker pid=22122] Predictor ready.
+  [pid=22122] x=0.00 T= 400K ...
+[worker pid=22134] Loading UMA-S-1.2 predictor...
+[worker pid=22134] Predictor ready.
+  [pid=22134] x=0.05 T= 400K ...
+[worker pid=22136] Loading UMA-S-1.2 predictor...
+[worker pid=22136] Predictor ready.
+  [pid=22136] x=0.05 T= 600K ...
+[worker pid=22132] Loading UMA-S-1.2 predictor...
+[worker pid=22132] Predictor ready.
+  [pid=22132] x=0.00 T=1100K ...
+[worker pid=22129] Loading UMA-S-1.2 predictor...
+[worker pid=22129] Predictor ready.
+  [pid=22129] x=0.00 T= 850K ...
+[worker pid=22128] Loading UMA-S-1.2 predictor...
+[worker pid=22128] Predictor ready.
+  [pid=22128] x=0.00 T= 800K ...
+[worker pid=22126] Loading UMA-S-1.2 predictor...
+[worker pid=22126] Predictor ready.
+  [pid=22126] x=0.00 T= 700K ...
+[worker pid=22137] Loading UMA-S-1.2 predictor...
+[worker pid=22137] Predictor ready.
+  [pid=22137] x=0.05 T= 650K ...
+[worker pid=22135] Loading UMA-S-1.2 predictor...
+[worker pid=22135] Predictor ready.
+  [pid=22135] x=0.05 T= 500K ...
+[worker pid=22131] Loading UMA-S-1.2 predictor...
+[worker pid=22131] Predictor ready.
+  [pid=22131] x=0.00 T=1000K ...
+[worker pid=22124] Loading UMA-S-1.2 predictor...
+[worker pid=22124] Predictor ready.
+  [pid=22124] x=0.00 T= 600K ...
+[worker pid=22125] Loading UMA-S-1.2 predictor...
+[worker pid=22125] Predictor ready.
+  [pid=22125] x=0.00 T= 650K ...
+[worker pid=22130] Loading UMA-S-1.2 predictor...
+[worker pid=22130] Predictor ready.
+  [pid=22130] x=0.00 T= 900K ...
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
+LAMMPS (29 Aug 2024)
