@@ -1,0 +1,23 @@
+# Core ML / simulation
+fairchem-core
+fairchem-lammps
+
+# NOTE: LAMMPS Python library is already installed at:
+#   C:\Users\kabdelma\AppData\Local\LAMMPS 64-bit 11Feb2026\Python
+# The setup_env.bat registers it via a .pth file — do NOT pip install lammps.
+
+# Structure building & I/O
+ase>=3.26.0
+
+# Analysis & plotting
+numpy>=2.0,<2.5
+scipy>=1.15.0
+matplotlib
+
+# fairchem-core transitive (pinned for compatibility)
+hydra-core
+e3nn>=0.5
+huggingface-hub>=0.27.1
+lmdb>=1.6.2,<=1.7.3
+tqdm
+pyyaml

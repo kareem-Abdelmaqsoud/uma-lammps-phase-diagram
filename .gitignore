@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Generated data (reproducible from scripts)
+structures/
+runs/
+results/
+
+# Script outputs
+melting_points.csv
+melting_curves.png
+phase_diagram_AlGe.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
